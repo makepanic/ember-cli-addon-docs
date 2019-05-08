@@ -146,18 +146,8 @@ module.exports = {
 
     if (!Array.isArray(includer.options.snippetExtensions)) {
       snippetExtensions = [
-        'ts',
-        'js',
-        'css',
-        'scss',
-        'hbs',
-        'md',
-        'text',
-        'json',
-        'handlebars',
-        'htmlbars',
-        'html',
-        'diff'
+        'js', 'ts', 'css', 'scss', 'hbs', 'md', 'text', 'json', 'handlebars', 'htmlbars', 'html', 'diff',
+        'swift', 'java', 'kotlin', 'objectivec'
       ];
     }
 
