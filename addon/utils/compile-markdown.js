@@ -13,6 +13,11 @@ import diff from 'highlight.js/lib/languages/diff';
 import shell from 'highlight.js/lib/languages/shell';
 import typescript from 'highlight.js/lib/languages/typescript';
 
+import swift from 'highlight.js/lib/languages/swift';
+import java from 'highlight.js/lib/languages/java';
+import kotlin from 'highlight.js/lib/languages/kotlin';
+import objc from 'highlight.js/lib/languages/objectivec';
+
 hljs.registerLanguage('javascript', javascript);
 hljs.registerLanguage('js', javascript);
 hljs.registerLanguage('css', css);
@@ -26,6 +31,11 @@ hljs.registerLanguage('shell', shell);
 hljs.registerLanguage('sh', shell);
 hljs.registerLanguage('typescript', typescript);
 hljs.registerLanguage('ts', typescript);
+
+hljs.registerLanguage('swift', swift);
+hljs.registerLanguage('java', java);
+hljs.registerLanguage('kotlin', kotlin);
+hljs.registerLanguage('obj-c', objc);
 
 /**
   This function is used when `compileMarkdown` encounters code blocks while
